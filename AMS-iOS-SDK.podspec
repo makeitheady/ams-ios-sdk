@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "AMS-iOS-SDK"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of AMS-iOS-SDK."
+  spec.summary      = "AMS-iOS-SDK."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = 'AMS iOS sdk'
 
-  spec.homepage     = "http://EXAMPLE/AMS-iOS-SDK"
+  spec.homepage     = "https://bitbucket.org/headyio/ams-ios-framework/"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
