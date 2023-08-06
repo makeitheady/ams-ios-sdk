@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://bitbucket.org/headyio/ams-ios-framework", :tag => "#{spec.version}", :branch => 'master' }
+  spec.source       = { :git => "git@bitbucket.org:headyio/ams-ios-framework.git", :tag => "#{spec.version}", :branch => 'master' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
