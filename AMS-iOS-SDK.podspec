@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = 'AMS iOS sdk'
 
-  spec.homepage     = "https://bitbucket.org/headyio/ams-ios-framework/"
+  spec.homepage     = "https://github.com/makeitheady/ams-ios-sdk/"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://bitbucket.org/headyio/ams-ios-framework.git", :tag => "#{spec.version}", :branch => 'master' }
+  spec.source       = { :git => "https://github.com/makeitheady/ams-ios-sdk.git", :tag => "#{spec.version}", :branch => 'master' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
