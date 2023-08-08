@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AMS-iOS-SDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "AMS-iOS-SDK."
 
   # This description is used to generate tags and improve search results.
