@@ -1,0 +1,11 @@
+framework module AmsSDK {
+  umbrella header "AmsSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AmsSDK.Swift {
+  header "AmsSDK-Swift.h"
+  requires objc
+}

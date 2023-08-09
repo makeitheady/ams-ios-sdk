@@ -1,0 +1,3970 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AmsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AmsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AmsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AMSContentProviding",
+        "printedName": "AMSContentProviding",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "killSwitchView",
+            "printedName": "killSwitchView(using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "View",
+                "printedName": "SwiftUI.View",
+                "usr": "s:7SwiftUI4ViewP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DisplayModel",
+                "printedName": "AmsSDK.DisplayModel",
+                "usr": "s:6AmsSDK12DisplayModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK19AMSContentProvidingP14killSwitchView5using7SwiftUI0G0_pAA12DisplayModelV_tF",
+            "mangledName": "$s6AmsSDK19AMSContentProvidingP14killSwitchView5using7SwiftUI0G0_pAA12DisplayModelV_tF",
+            "moduleName": "AmsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.AMSContentProviding>",
+            "sugared_genericSig": "<Self where Self : AmsSDK.AMSContentProviding>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forceUpdateView",
+            "printedName": "forceUpdateView(using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "View",
+                "printedName": "SwiftUI.View",
+                "usr": "s:7SwiftUI4ViewP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DisplayModel",
+                "printedName": "AmsSDK.DisplayModel",
+                "usr": "s:6AmsSDK12DisplayModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK19AMSContentProvidingP15forceUpdateView5using7SwiftUI0G0_pAA12DisplayModelV_tF",
+            "mangledName": "$s6AmsSDK19AMSContentProvidingP15forceUpdateView5using7SwiftUI0G0_pAA12DisplayModelV_tF",
+            "moduleName": "AmsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.AMSContentProviding>",
+            "sugared_genericSig": "<Self where Self : AmsSDK.AMSContentProviding>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6AmsSDK19AMSContentProvidingP",
+        "mangledName": "$s6AmsSDK19AMSContentProvidingP",
+        "moduleName": "AmsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AmsSDK",
+        "printedName": "AmsSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AmsSDK.AmsSDK?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AmsSDK",
+                    "printedName": "AmsSDK.AmsSDK",
+                    "usr": "s:6AmsSDKAAC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDKAAC6sharedABSgvpZ",
+            "mangledName": "$s6AmsSDKAAC6sharedABSgvpZ",
+            "moduleName": "AmsSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AmsSDK.AmsSDK?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AmsSDK",
+                        "printedName": "AmsSDK.AmsSDK",
+                        "usr": "s:6AmsSDKAAC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDKAAC6sharedABSgvgZ",
+                "mangledName": "$s6AmsSDKAAC6sharedABSgvgZ",
+                "moduleName": "AmsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureFlags",
+            "printedName": "featureFlags",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureFlagOwner",
+                "printedName": "AmsSDK.FeatureFlagOwner",
+                "usr": "s:6AmsSDK16FeatureFlagOwnerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDKAAC12featureFlagsAA16FeatureFlagOwnerCvp",
+            "mangledName": "$s6AmsSDKAAC12featureFlagsAA16FeatureFlagOwnerCvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeatureFlagOwner",
+                    "printedName": "AmsSDK.FeatureFlagOwner",
+                    "usr": "s:6AmsSDK16FeatureFlagOwnerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDKAAC12featureFlagsAA16FeatureFlagOwnerCvg",
+                "mangledName": "$s6AmsSDKAAC12featureFlagsAA16FeatureFlagOwnerCvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(with:contentProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AmsSDK",
+                "printedName": "AmsSDK.AmsSDK",
+                "usr": "s:6AmsSDKAAC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkConfiguring",
+                "printedName": "AmsSDK.NetworkConfiguring",
+                "usr": "s:6AmsSDK18NetworkConfiguringP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AMSContentProviding",
+                "printedName": "AmsSDK.AMSContentProviding",
+                "usr": "s:6AmsSDK19AMSContentProvidingP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDKAAC4with15contentProviderAbA18NetworkConfiguring_p_AA19AMSContentProviding_ptcfc",
+            "mangledName": "$s6AmsSDKAAC4with15contentProviderAbA18NetworkConfiguring_p_AA19AMSContentProviding_ptcfc",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "prepare",
+            "printedName": "prepare()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDKAAC7prepareSbyF",
+            "mangledName": "$s6AmsSDKAAC7prepareSbyF",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "kickoff",
+            "printedName": "kickoff()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDKAAC7kickoffSbyYaFZ",
+            "mangledName": "$s6AmsSDKAAC7kickoffSbyYaFZ",
+            "moduleName": "AmsSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6AmsSDKAAC",
+        "mangledName": "$s6AmsSDKAAC",
+        "moduleName": "AmsSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestType",
+        "printedName": "RequestType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AmsSDK.RequestType.Type) -> AmsSDK.RequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestType",
+                    "printedName": "AmsSDK.RequestType",
+                    "usr": "s:6AmsSDK11RequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AmsSDK.RequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestType",
+                        "printedName": "AmsSDK.RequestType",
+                        "usr": "s:6AmsSDK11RequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6AmsSDK11RequestTypeO3getyA2CmF",
+            "mangledName": "$s6AmsSDK11RequestTypeO3getyA2CmF",
+            "moduleName": "AmsSDK",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AmsSDK.RequestType.Type) -> AmsSDK.RequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestType",
+                    "printedName": "AmsSDK.RequestType",
+                    "usr": "s:6AmsSDK11RequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AmsSDK.RequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestType",
+                        "printedName": "AmsSDK.RequestType",
+                        "usr": "s:6AmsSDK11RequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6AmsSDK11RequestTypeO4postyA2CmF",
+            "mangledName": "$s6AmsSDK11RequestTypeO4postyA2CmF",
+            "moduleName": "AmsSDK",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AmsSDK.RequestType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestType",
+                    "printedName": "AmsSDK.RequestType",
+                    "usr": "s:6AmsSDK11RequestTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK11RequestTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s6AmsSDK11RequestTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "AmsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK11RequestTypeO8rawValueSSvp",
+            "mangledName": "$s6AmsSDK11RequestTypeO8rawValueSSvp",
+            "moduleName": "AmsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK11RequestTypeO8rawValueSSvg",
+                "mangledName": "$s6AmsSDK11RequestTypeO8rawValueSSvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6AmsSDK11RequestTypeO",
+        "mangledName": "$s6AmsSDK11RequestTypeO",
+        "moduleName": "AmsSDK",
+        "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Endpoint",
+        "printedName": "Endpoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK8EndpointP4pathSSvp",
+            "mangledName": "$s6AmsSDK8EndpointP4pathSSvp",
+            "moduleName": "AmsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK8EndpointP4pathSSvg",
+                "mangledName": "$s6AmsSDK8EndpointP4pathSSvg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.Endpoint>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestType",
+            "printedName": "requestType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestType",
+                "printedName": "AmsSDK.RequestType",
+                "usr": "s:6AmsSDK11RequestTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK8EndpointP11requestTypeAA07RequestE0Ovp",
+            "mangledName": "$s6AmsSDK8EndpointP11requestTypeAA07RequestE0Ovp",
+            "moduleName": "AmsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestType",
+                    "printedName": "AmsSDK.RequestType",
+                    "usr": "s:6AmsSDK11RequestTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK8EndpointP11requestTypeAA07RequestE0Ovg",
+                "mangledName": "$s6AmsSDK8EndpointP11requestTypeAA07RequestE0Ovg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.Endpoint>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6AmsSDK8EndpointP",
+        "mangledName": "$s6AmsSDK8EndpointP",
+        "moduleName": "AmsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkProviding",
+        "printedName": "NetworkProviding",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkConfiguration",
+            "printedName": "networkConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkConfiguring",
+                "printedName": "AmsSDK.NetworkConfiguring",
+                "usr": "s:6AmsSDK18NetworkConfiguringP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK16NetworkProvidingP20networkConfigurationAA0C11Configuring_pvp",
+            "mangledName": "$s6AmsSDK16NetworkProvidingP20networkConfigurationAA0C11Configuring_pvp",
+            "moduleName": "AmsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkConfiguring",
+                    "printedName": "AmsSDK.NetworkConfiguring",
+                    "usr": "s:6AmsSDK18NetworkConfiguringP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK16NetworkProvidingP20networkConfigurationAA0C11Configuring_pvg",
+                "mangledName": "$s6AmsSDK16NetworkProvidingP20networkConfigurationAA0C11Configuring_pvg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.NetworkProviding>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.NetworkProviding>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "perform",
+            "printedName": "perform(endpoint:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_1_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Endpoint",
+                "printedName": "AmsSDK.Endpoint",
+                "usr": "s:6AmsSDK8EndpointP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK16NetworkProvidingP7perform8endpointqd__SgAA8Endpoint_p_tYaKSeRd__lF",
+            "mangledName": "$s6AmsSDK16NetworkProvidingP7perform8endpointqd__SgAA8Endpoint_p_tYaKSeRd__lF",
+            "moduleName": "AmsSDK",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : AmsSDK.NetworkProviding, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : AmsSDK.NetworkProviding, T : Swift.Decodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6AmsSDK16NetworkProvidingP",
+        "mangledName": "$s6AmsSDK16NetworkProvidingP",
+        "moduleName": "AmsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkConfiguring",
+        "printedName": "NetworkConfiguring",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK18NetworkConfiguringP6apiKeySSvp",
+            "mangledName": "$s6AmsSDK18NetworkConfiguringP6apiKeySSvp",
+            "moduleName": "AmsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK18NetworkConfiguringP6apiKeySSvg",
+                "mangledName": "$s6AmsSDK18NetworkConfiguringP6apiKeySSvg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.NetworkConfiguring>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.NetworkConfiguring>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK18NetworkConfiguringP7baseURL10Foundation0F0Vvp",
+            "mangledName": "$s6AmsSDK18NetworkConfiguringP7baseURL10Foundation0F0Vvp",
+            "moduleName": "AmsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK18NetworkConfiguringP7baseURL10Foundation0F0Vvg",
+                "mangledName": "$s6AmsSDK18NetworkConfiguringP7baseURL10Foundation0F0Vvg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.NetworkConfiguring>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.NetworkConfiguring>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseURLString",
+            "printedName": "baseURLString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK18NetworkConfiguringP13baseURLStringSSvp",
+            "mangledName": "$s6AmsSDK18NetworkConfiguringP13baseURLStringSSvp",
+            "moduleName": "AmsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK18NetworkConfiguringP13baseURLStringSSvg",
+                "mangledName": "$s6AmsSDK18NetworkConfiguringP13baseURLStringSSvg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.NetworkConfiguring>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.NetworkConfiguring>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseURLString",
+            "printedName": "baseURLString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK18NetworkConfiguringPAAE13baseURLStringSSvp",
+            "mangledName": "$s6AmsSDK18NetworkConfiguringPAAE13baseURLStringSSvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK18NetworkConfiguringPAAE13baseURLStringSSvg",
+                "mangledName": "$s6AmsSDK18NetworkConfiguringPAAE13baseURLStringSSvg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.NetworkConfiguring>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.NetworkConfiguring>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6AmsSDK18NetworkConfiguringP",
+        "mangledName": "$s6AmsSDK18NetworkConfiguringP",
+        "moduleName": "AmsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AmsNetworkProvider",
+        "printedName": "AmsNetworkProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkConfiguration",
+            "printedName": "networkConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkConfiguring",
+                "printedName": "AmsSDK.NetworkConfiguring",
+                "usr": "s:6AmsSDK18NetworkConfiguringP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK0A15NetworkProviderV20networkConfigurationAA0C11Configuring_pvp",
+            "mangledName": "$s6AmsSDK0A15NetworkProviderV20networkConfigurationAA0C11Configuring_pvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkConfiguring",
+                    "printedName": "AmsSDK.NetworkConfiguring",
+                    "usr": "s:6AmsSDK18NetworkConfiguringP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK0A15NetworkProviderV20networkConfigurationAA0C11Configuring_pvg",
+                "mangledName": "$s6AmsSDK0A15NetworkProviderV20networkConfigurationAA0C11Configuring_pvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(networkConfiguration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AmsNetworkProvider",
+                "printedName": "AmsSDK.AmsNetworkProvider",
+                "usr": "s:6AmsSDK0A15NetworkProviderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkConfiguring",
+                "printedName": "AmsSDK.NetworkConfiguring",
+                "usr": "s:6AmsSDK18NetworkConfiguringP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK0A15NetworkProviderV20networkConfigurationAcA0C11Configuring_p_tcfc",
+            "mangledName": "$s6AmsSDK0A15NetworkProviderV20networkConfigurationAcA0C11Configuring_p_tcfc",
+            "moduleName": "AmsSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "perform",
+            "printedName": "perform(endpoint:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Endpoint",
+                "printedName": "AmsSDK.Endpoint",
+                "usr": "s:6AmsSDK8EndpointP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK0A15NetworkProviderV7perform8endpointxSgAA8Endpoint_p_tYaKSeRzlF",
+            "mangledName": "$s6AmsSDK0A15NetworkProviderV7perform8endpointxSgAA8Endpoint_p_tYaKSeRzlF",
+            "moduleName": "AmsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6AmsSDK0A15NetworkProviderV",
+        "mangledName": "$s6AmsSDK0A15NetworkProviderV",
+        "moduleName": "AmsSDK",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NetworkProviding",
+            "printedName": "NetworkProviding",
+            "usr": "s:6AmsSDK16NetworkProvidingP",
+            "mangledName": "$s6AmsSDK16NetworkProvidingP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AmsEndpoint",
+        "printedName": "AmsEndpoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK0A8EndpointV4pathSSvp",
+            "mangledName": "$s6AmsSDK0A8EndpointV4pathSSvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK0A8EndpointV4pathSSvg",
+                "mangledName": "$s6AmsSDK0A8EndpointV4pathSSvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestType",
+            "printedName": "requestType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestType",
+                "printedName": "AmsSDK.RequestType",
+                "usr": "s:6AmsSDK11RequestTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK0A8EndpointV11requestTypeAA07RequestE0Ovp",
+            "mangledName": "$s6AmsSDK0A8EndpointV11requestTypeAA07RequestE0Ovp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestType",
+                    "printedName": "AmsSDK.RequestType",
+                    "usr": "s:6AmsSDK11RequestTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK0A8EndpointV11requestTypeAA07RequestE0Ovg",
+                "mangledName": "$s6AmsSDK0A8EndpointV11requestTypeAA07RequestE0Ovg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(path:requestType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AmsEndpoint",
+                "printedName": "AmsSDK.AmsEndpoint",
+                "usr": "s:6AmsSDK0A8EndpointV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RequestType",
+                "printedName": "AmsSDK.RequestType",
+                "usr": "s:6AmsSDK11RequestTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK0A8EndpointV4path11requestTypeACSS_AA07RequestF0Otcfc",
+            "mangledName": "$s6AmsSDK0A8EndpointV4path11requestTypeACSS_AA07RequestF0Otcfc",
+            "moduleName": "AmsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6AmsSDK0A8EndpointV",
+        "mangledName": "$s6AmsSDK0A8EndpointV",
+        "moduleName": "AmsSDK",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Endpoint",
+            "printedName": "Endpoint",
+            "usr": "s:6AmsSDK8EndpointP",
+            "mangledName": "$s6AmsSDK8EndpointP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AmsEndpointProvider",
+        "printedName": "AmsEndpointProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "settings",
+            "printedName": "settings()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AmsEndpoint",
+                "printedName": "AmsSDK.AmsEndpoint",
+                "usr": "s:6AmsSDK0A8EndpointV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK0A16EndpointProviderV8settingsAA0aC0VyFZ",
+            "mangledName": "$s6AmsSDK0A16EndpointProviderV8settingsAA0aC0VyFZ",
+            "moduleName": "AmsSDK",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AmsEndpointProvider",
+                "printedName": "AmsSDK.AmsEndpointProvider",
+                "usr": "s:6AmsSDK0A16EndpointProviderV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK0A16EndpointProviderVACycfc",
+            "mangledName": "$s6AmsSDK0A16EndpointProviderVACycfc",
+            "moduleName": "AmsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6AmsSDK0A16EndpointProviderV",
+        "mangledName": "$s6AmsSDK0A16EndpointProviderV",
+        "moduleName": "AmsSDK",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Setting",
+        "printedName": "Setting",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "KillSwitch",
+            "printedName": "KillSwitch",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "apiInactive",
+                "printedName": "apiInactive",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV10KillSwitchV11apiInactiveSbvp",
+                "mangledName": "$s6AmsSDK7SettingV10KillSwitchV11apiInactiveSbvp",
+                "moduleName": "AmsSDK",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV10KillSwitchV11apiInactiveSbvg",
+                    "mangledName": "$s6AmsSDK7SettingV10KillSwitchV11apiInactiveSbvg",
+                    "moduleName": "AmsSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "apiInactiveUserMessage",
+                "printedName": "apiInactiveUserMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV10KillSwitchV22apiInactiveUserMessageSSvp",
+                "mangledName": "$s6AmsSDK7SettingV10KillSwitchV22apiInactiveUserMessageSSvp",
+                "moduleName": "AmsSDK",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 1,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV10KillSwitchV22apiInactiveUserMessageSSvg",
+                    "mangledName": "$s6AmsSDK7SettingV10KillSwitchV22apiInactiveUserMessageSSvg",
+                    "moduleName": "AmsSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "retryInterval",
+                "printedName": "retryInterval",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV10KillSwitchV13retryIntervalSivp",
+                "mangledName": "$s6AmsSDK7SettingV10KillSwitchV13retryIntervalSivp",
+                "moduleName": "AmsSDK",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 2,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV10KillSwitchV13retryIntervalSivg",
+                    "mangledName": "$s6AmsSDK7SettingV10KillSwitchV13retryIntervalSivg",
+                    "moduleName": "AmsSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "displayModel",
+                "printedName": "displayModel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisplayModel",
+                    "printedName": "AmsSDK.DisplayModel",
+                    "usr": "s:6AmsSDK12DisplayModelV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV10KillSwitchV12displayModelAA07DisplayG0Vvp",
+                "mangledName": "$s6AmsSDK7SettingV10KillSwitchV12displayModelAA07DisplayG0Vvp",
+                "moduleName": "AmsSDK",
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DisplayModel",
+                        "printedName": "AmsSDK.DisplayModel",
+                        "usr": "s:6AmsSDK12DisplayModelV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV10KillSwitchV12displayModelAA07DisplayG0Vvg",
+                    "mangledName": "$s6AmsSDK7SettingV10KillSwitchV12displayModelAA07DisplayG0Vvg",
+                    "moduleName": "AmsSDK",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(apiInactive:apiInactiveUserMessage:retryInterval:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KillSwitch",
+                    "printedName": "AmsSDK.Setting.KillSwitch",
+                    "usr": "s:6AmsSDK7SettingV10KillSwitchV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6AmsSDK7SettingV10KillSwitchV11apiInactive0fG11UserMessage13retryIntervalAESb_SSSitcfc",
+                "mangledName": "$s6AmsSDK7SettingV10KillSwitchV11apiInactive0fG11UserMessage13retryIntervalAESb_SSSitcfc",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KillSwitch",
+                    "printedName": "AmsSDK.Setting.KillSwitch",
+                    "usr": "s:6AmsSDK7SettingV10KillSwitchV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6AmsSDK7SettingV10KillSwitchV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s6AmsSDK7SettingV10KillSwitchV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:6AmsSDK7SettingV10KillSwitchV",
+            "mangledName": "$s6AmsSDK7SettingV10KillSwitchV",
+            "moduleName": "AmsSDK",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ForceUpdate",
+            "printedName": "ForceUpdate",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "forceUpdateUserMessage",
+                "printedName": "forceUpdateUserMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV11ForceUpdateV05forceE11UserMessageSSvp",
+                "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV05forceE11UserMessageSSvp",
+                "moduleName": "AmsSDK",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV11ForceUpdateV05forceE11UserMessageSSvg",
+                    "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV05forceE11UserMessageSSvg",
+                    "moduleName": "AmsSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "minVersion",
+                "printedName": "minVersion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV11ForceUpdateV10minVersionSSvp",
+                "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV10minVersionSSvp",
+                "moduleName": "AmsSDK",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 1,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV11ForceUpdateV10minVersionSSvg",
+                    "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV10minVersionSSvg",
+                    "moduleName": "AmsSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "badVersions",
+                "printedName": "badVersions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV11ForceUpdateV11badVersionsSaySSGvp",
+                "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV11badVersionsSaySSGvp",
+                "moduleName": "AmsSDK",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 2,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV11ForceUpdateV11badVersionsSaySSGvg",
+                    "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV11badVersionsSaySSGvg",
+                    "moduleName": "AmsSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "displayModel",
+                "printedName": "displayModel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisplayModel",
+                    "printedName": "AmsSDK.DisplayModel",
+                    "usr": "s:6AmsSDK12DisplayModelV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV11ForceUpdateV12displayModelAA07DisplayG0Vvp",
+                "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV12displayModelAA07DisplayG0Vvp",
+                "moduleName": "AmsSDK",
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DisplayModel",
+                        "printedName": "AmsSDK.DisplayModel",
+                        "usr": "s:6AmsSDK12DisplayModelV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV11ForceUpdateV12displayModelAA07DisplayG0Vvg",
+                    "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV12displayModelAA07DisplayG0Vvg",
+                    "moduleName": "AmsSDK",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(forceUpdateUserMessage:minVersion:badVersions:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForceUpdate",
+                    "printedName": "AmsSDK.Setting.ForceUpdate",
+                    "usr": "s:6AmsSDK7SettingV11ForceUpdateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6AmsSDK7SettingV11ForceUpdateV05forceE11UserMessage10minVersion11badVersionsAESS_SSSaySSGtcfc",
+                "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV05forceE11UserMessage10minVersion11badVersionsAESS_SSSaySSGtcfc",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForceUpdate",
+                    "printedName": "AmsSDK.Setting.ForceUpdate",
+                    "usr": "s:6AmsSDK7SettingV11ForceUpdateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6AmsSDK7SettingV11ForceUpdateV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:6AmsSDK7SettingV11ForceUpdateV",
+            "mangledName": "$s6AmsSDK7SettingV11ForceUpdateV",
+            "moduleName": "AmsSDK",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "FeatureFlags",
+            "printedName": "FeatureFlags",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "dataSet",
+                "printedName": "dataSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.Bool]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV12FeatureFlagsV7dataSetSDySSSbGvp",
+                "mangledName": "$s6AmsSDK7SettingV12FeatureFlagsV7dataSetSDySSSbGvp",
+                "moduleName": "AmsSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "SetterAccess"
+                ],
+                "fixedbinaryorder": 0,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.Bool]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV12FeatureFlagsV7dataSetSDySSSbGvg",
+                    "mangledName": "$s6AmsSDK7SettingV12FeatureFlagsV7dataSetSDySSSbGvg",
+                    "moduleName": "AmsSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Subscript",
+                "name": "subscript",
+                "printedName": "subscript(dynamicMember:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Subscript",
+                "usr": "s:6AmsSDK7SettingV12FeatureFlagsV13dynamicMemberSbSS_tcip",
+                "mangledName": "$s6AmsSDK7SettingV12FeatureFlagsV13dynamicMemberSbSS_tcip",
+                "moduleName": "AmsSDK",
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV12FeatureFlagsV13dynamicMemberSbSS_tcig",
+                    "mangledName": "$s6AmsSDK7SettingV12FeatureFlagsV13dynamicMemberSbSS_tcig",
+                    "moduleName": "AmsSDK",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(dataSet:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeatureFlags",
+                    "printedName": "AmsSDK.Setting.FeatureFlags",
+                    "usr": "s:6AmsSDK7SettingV12FeatureFlagsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.Bool]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6AmsSDK7SettingV12FeatureFlagsV7dataSetAESDySSSbG_tcfc",
+                "mangledName": "$s6AmsSDK7SettingV12FeatureFlagsV7dataSetAESDySSSbG_tcfc",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeatureFlags",
+                    "printedName": "AmsSDK.Setting.FeatureFlags",
+                    "usr": "s:6AmsSDK7SettingV12FeatureFlagsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6AmsSDK7SettingV12FeatureFlagsV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s6AmsSDK7SettingV12FeatureFlagsV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:6AmsSDK7SettingV12FeatureFlagsV",
+            "mangledName": "$s6AmsSDK7SettingV12FeatureFlagsV",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "DynamicMemberLookup"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "killSwitch",
+            "printedName": "killSwitch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KillSwitch",
+                "printedName": "AmsSDK.Setting.KillSwitch",
+                "usr": "s:6AmsSDK7SettingV10KillSwitchV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK7SettingV10killSwitchAC04KillE0Vvp",
+            "mangledName": "$s6AmsSDK7SettingV10killSwitchAC04KillE0Vvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KillSwitch",
+                    "printedName": "AmsSDK.Setting.KillSwitch",
+                    "usr": "s:6AmsSDK7SettingV10KillSwitchV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK7SettingV10killSwitchAC04KillE0Vvg",
+                "mangledName": "$s6AmsSDK7SettingV10killSwitchAC04KillE0Vvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "forceUpdate",
+            "printedName": "forceUpdate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ForceUpdate",
+                "printedName": "AmsSDK.Setting.ForceUpdate",
+                "usr": "s:6AmsSDK7SettingV11ForceUpdateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK7SettingV11forceUpdateAC05ForceE0Vvp",
+            "mangledName": "$s6AmsSDK7SettingV11forceUpdateAC05ForceE0Vvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ForceUpdate",
+                    "printedName": "AmsSDK.Setting.ForceUpdate",
+                    "usr": "s:6AmsSDK7SettingV11ForceUpdateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK7SettingV11forceUpdateAC05ForceE0Vvg",
+                "mangledName": "$s6AmsSDK7SettingV11forceUpdateAC05ForceE0Vvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureFlag",
+            "printedName": "featureFlag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureFlags",
+                "printedName": "AmsSDK.Setting.FeatureFlags",
+                "usr": "s:6AmsSDK7SettingV12FeatureFlagsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK7SettingV11featureFlagAC12FeatureFlagsVvp",
+            "mangledName": "$s6AmsSDK7SettingV11featureFlagAC12FeatureFlagsVvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeatureFlags",
+                    "printedName": "AmsSDK.Setting.FeatureFlags",
+                    "usr": "s:6AmsSDK7SettingV12FeatureFlagsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK7SettingV11featureFlagAC12FeatureFlagsVvg",
+                "mangledName": "$s6AmsSDK7SettingV11featureFlagAC12FeatureFlagsVvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "killSwitch",
+                "printedName": "killSwitch",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AmsSDK.Setting.CodingKeys.Type) -> AmsSDK.Setting.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AmsSDK.Setting.CodingKeys",
+                        "usr": "s:6AmsSDK7SettingV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AmsSDK.Setting.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "AmsSDK.Setting.CodingKeys",
+                            "usr": "s:6AmsSDK7SettingV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6AmsSDK7SettingV10CodingKeysO10killSwitchyA2EmF",
+                "mangledName": "$s6AmsSDK7SettingV10CodingKeysO10killSwitchyA2EmF",
+                "moduleName": "AmsSDK",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "forceUpdate",
+                "printedName": "forceUpdate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AmsSDK.Setting.CodingKeys.Type) -> AmsSDK.Setting.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AmsSDK.Setting.CodingKeys",
+                        "usr": "s:6AmsSDK7SettingV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AmsSDK.Setting.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "AmsSDK.Setting.CodingKeys",
+                            "usr": "s:6AmsSDK7SettingV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6AmsSDK7SettingV10CodingKeysO11forceUpdateyA2EmF",
+                "mangledName": "$s6AmsSDK7SettingV10CodingKeysO11forceUpdateyA2EmF",
+                "moduleName": "AmsSDK",
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "featureFlag",
+                "printedName": "featureFlag",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AmsSDK.Setting.CodingKeys.Type) -> AmsSDK.Setting.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AmsSDK.Setting.CodingKeys",
+                        "usr": "s:6AmsSDK7SettingV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AmsSDK.Setting.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "AmsSDK.Setting.CodingKeys",
+                            "usr": "s:6AmsSDK7SettingV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6AmsSDK7SettingV10CodingKeysO11featureFlagyA2EmF",
+                "mangledName": "$s6AmsSDK7SettingV10CodingKeysO11featureFlagyA2EmF",
+                "moduleName": "AmsSDK",
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AmsSDK.Setting.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AmsSDK.Setting.CodingKeys",
+                        "usr": "s:6AmsSDK7SettingV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6AmsSDK7SettingV10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$s6AmsSDK7SettingV10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV10CodingKeysO8rawValueSSvp",
+                "mangledName": "$s6AmsSDK7SettingV10CodingKeysO8rawValueSSvp",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$s6AmsSDK7SettingV10CodingKeysO8rawValueSSvg",
+                    "moduleName": "AmsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV10CodingKeysO11stringValueSSvp",
+                "mangledName": "$s6AmsSDK7SettingV10CodingKeysO11stringValueSSvp",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$s6AmsSDK7SettingV10CodingKeysO11stringValueSSvg",
+                    "moduleName": "AmsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AmsSDK.Setting.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AmsSDK.Setting.CodingKeys",
+                        "usr": "s:6AmsSDK7SettingV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6AmsSDK7SettingV10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$s6AmsSDK7SettingV10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6AmsSDK7SettingV10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$s6AmsSDK7SettingV10CodingKeysO8intValueSiSgvp",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6AmsSDK7SettingV10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$s6AmsSDK7SettingV10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "AmsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AmsSDK.Setting.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "AmsSDK.Setting.CodingKeys",
+                        "usr": "s:6AmsSDK7SettingV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6AmsSDK7SettingV10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$s6AmsSDK7SettingV10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:6AmsSDK7SettingV10CodingKeysO",
+            "mangledName": "$s6AmsSDK7SettingV10CodingKeysO",
+            "moduleName": "AmsSDK",
+            "enumRawTypeName": "String",
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Setting",
+                "printedName": "AmsSDK.Setting",
+                "usr": "s:6AmsSDK7SettingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK7SettingV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6AmsSDK7SettingV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AmsSDK",
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6AmsSDK7SettingV",
+        "mangledName": "$s6AmsSDK7SettingV",
+        "moduleName": "AmsSDK",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeatureFlagOwning",
+        "printedName": "FeatureFlagOwning",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(flags:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureFlags",
+                "printedName": "AmsSDK.Setting.FeatureFlags",
+                "usr": "s:6AmsSDK7SettingV12FeatureFlagsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK17FeatureFlagOwningP3set5flagsyAA7SettingV0C5FlagsV_tF",
+            "mangledName": "$s6AmsSDK17FeatureFlagOwningP3set5flagsyAA7SettingV0C5FlagsV_tF",
+            "moduleName": "AmsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.FeatureFlagOwning>",
+            "sugared_genericSig": "<Self where Self : AmsSDK.FeatureFlagOwning>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6AmsSDK17FeatureFlagOwningP",
+        "mangledName": "$s6AmsSDK17FeatureFlagOwningP",
+        "moduleName": "AmsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeatureFlagOwner",
+        "printedName": "FeatureFlagOwner",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(flags:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureFlags",
+                "printedName": "AmsSDK.Setting.FeatureFlags",
+                "usr": "s:6AmsSDK7SettingV12FeatureFlagsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK16FeatureFlagOwnerC3set5flagsyAA7SettingV0C5FlagsV_tF",
+            "mangledName": "$s6AmsSDK16FeatureFlagOwnerC3set5flagsyAA7SettingV0C5FlagsV_tF",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(dynamicMember:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:6AmsSDK16FeatureFlagOwnerC13dynamicMemberSbSS_tcip",
+            "mangledName": "$s6AmsSDK16FeatureFlagOwnerC13dynamicMemberSbSS_tcip",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK16FeatureFlagOwnerC13dynamicMemberSbSS_tcig",
+                "mangledName": "$s6AmsSDK16FeatureFlagOwnerC13dynamicMemberSbSS_tcig",
+                "moduleName": "AmsSDK",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureFlagOwner",
+                "printedName": "AmsSDK.FeatureFlagOwner",
+                "usr": "s:6AmsSDK16FeatureFlagOwnerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK16FeatureFlagOwnerCACycfc",
+            "mangledName": "$s6AmsSDK16FeatureFlagOwnerCACycfc",
+            "moduleName": "AmsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6AmsSDK16FeatureFlagOwnerC",
+        "mangledName": "$s6AmsSDK16FeatureFlagOwnerC",
+        "moduleName": "AmsSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "DynamicMemberLookup"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FeatureFlagOwning",
+            "printedName": "FeatureFlagOwning",
+            "usr": "s:6AmsSDK17FeatureFlagOwningP",
+            "mangledName": "$s6AmsSDK17FeatureFlagOwningP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InternalAmsSDK",
+        "printedName": "InternalAmsSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkProvider",
+            "printedName": "networkProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkProviding",
+                "printedName": "AmsSDK.NetworkProviding",
+                "usr": "s:6AmsSDK16NetworkProvidingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK08InternalaB0C15networkProviderAA16NetworkProviding_pvp",
+            "mangledName": "$s6AmsSDK08InternalaB0C15networkProviderAA16NetworkProviding_pvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkProviding",
+                    "printedName": "AmsSDK.NetworkProviding",
+                    "usr": "s:6AmsSDK16NetworkProvidingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK08InternalaB0C15networkProviderAA16NetworkProviding_pvg",
+                "mangledName": "$s6AmsSDK08InternalaB0C15networkProviderAA16NetworkProviding_pvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "killSwitchOwner",
+            "printedName": "killSwitchOwner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KillSwitchOwning",
+                "printedName": "AmsSDK.KillSwitchOwning",
+                "usr": "s:6AmsSDK16KillSwitchOwningP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK08InternalaB0C15killSwitchOwnerAA04KillE6Owning_pvp",
+            "mangledName": "$s6AmsSDK08InternalaB0C15killSwitchOwnerAA04KillE6Owning_pvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KillSwitchOwning",
+                    "printedName": "AmsSDK.KillSwitchOwning",
+                    "usr": "s:6AmsSDK16KillSwitchOwningP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK08InternalaB0C15killSwitchOwnerAA04KillE6Owning_pvg",
+                "mangledName": "$s6AmsSDK08InternalaB0C15killSwitchOwnerAA04KillE6Owning_pvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureFlagOwner",
+            "printedName": "featureFlagOwner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureFlagOwning",
+                "printedName": "AmsSDK.FeatureFlagOwning",
+                "usr": "s:6AmsSDK17FeatureFlagOwningP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK08InternalaB0C16featureFlagOwnerAA07FeatureE6Owning_pvp",
+            "mangledName": "$s6AmsSDK08InternalaB0C16featureFlagOwnerAA07FeatureE6Owning_pvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeatureFlagOwning",
+                    "printedName": "AmsSDK.FeatureFlagOwning",
+                    "usr": "s:6AmsSDK17FeatureFlagOwningP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK08InternalaB0C16featureFlagOwnerAA07FeatureE6Owning_pvg",
+                "mangledName": "$s6AmsSDK08InternalaB0C16featureFlagOwnerAA07FeatureE6Owning_pvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(networkProvider:killSwitchOwner:featureFlagOwner:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InternalAmsSDK",
+                "printedName": "AmsSDK.InternalAmsSDK",
+                "usr": "s:6AmsSDK08InternalaB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkProviding",
+                "printedName": "AmsSDK.NetworkProviding",
+                "usr": "s:6AmsSDK16NetworkProvidingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KillSwitchOwning",
+                "printedName": "AmsSDK.KillSwitchOwning",
+                "usr": "s:6AmsSDK16KillSwitchOwningP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FeatureFlagOwning",
+                "printedName": "AmsSDK.FeatureFlagOwning",
+                "usr": "s:6AmsSDK17FeatureFlagOwningP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK08InternalaB0C15networkProvider15killSwitchOwner011featureFlagH0AcA16NetworkProviding_p_AA04KillG6Owning_pAA07FeaturejN0_ptcfc",
+            "mangledName": "$s6AmsSDK08InternalaB0C15networkProvider15killSwitchOwner011featureFlagH0AcA16NetworkProviding_p_AA04KillG6Owning_pAA07FeaturejN0_ptcfc",
+            "moduleName": "AmsSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK08InternalaB0C5fetchyyYaKF",
+            "mangledName": "$s6AmsSDK08InternalaB0C5fetchyyYaKF",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6AmsSDK08InternalaB0C",
+        "mangledName": "$s6AmsSDK08InternalaB0C",
+        "moduleName": "AmsSDK",
+        "declAttributes": [
+          "Final"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BundleOwning",
+        "printedName": "BundleOwning",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appVersion",
+            "printedName": "appVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK12BundleOwningP10appVersionSSvp",
+            "mangledName": "$s6AmsSDK12BundleOwningP10appVersionSSvp",
+            "moduleName": "AmsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK12BundleOwningP10appVersionSSvg",
+                "mangledName": "$s6AmsSDK12BundleOwningP10appVersionSSvg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.BundleOwning>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.BundleOwning>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6AmsSDK12BundleOwningP",
+        "mangledName": "$s6AmsSDK12BundleOwningP",
+        "moduleName": "AmsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BundleOwner",
+        "printedName": "BundleOwner",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appVersion",
+            "printedName": "appVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK11BundleOwnerV10appVersionSSvp",
+            "mangledName": "$s6AmsSDK11BundleOwnerV10appVersionSSvp",
+            "moduleName": "AmsSDK",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK11BundleOwnerV10appVersionSSvg",
+                "mangledName": "$s6AmsSDK11BundleOwnerV10appVersionSSvg",
+                "moduleName": "AmsSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BundleOwner",
+                "printedName": "AmsSDK.BundleOwner",
+                "usr": "s:6AmsSDK11BundleOwnerV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK11BundleOwnerVACycfc",
+            "mangledName": "$s6AmsSDK11BundleOwnerVACycfc",
+            "moduleName": "AmsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6AmsSDK11BundleOwnerV",
+        "mangledName": "$s6AmsSDK11BundleOwnerV",
+        "moduleName": "AmsSDK",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "BundleOwning",
+            "printedName": "BundleOwning",
+            "usr": "s:6AmsSDK12BundleOwningP",
+            "mangledName": "$s6AmsSDK12BundleOwningP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WindowOwning",
+        "printedName": "WindowOwning",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "referenceWindow",
+            "printedName": "referenceWindow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindowScene?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindowScene",
+                    "printedName": "UIKit.UIWindowScene",
+                    "usr": "c:objc(cs)UIWindowScene"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK12WindowOwningP09referenceC0So13UIWindowSceneCSgvp",
+            "mangledName": "$s6AmsSDK12WindowOwningP09referenceC0So13UIWindowSceneCSgvp",
+            "moduleName": "AmsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIWindowScene?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindowScene",
+                        "printedName": "UIKit.UIWindowScene",
+                        "usr": "c:objc(cs)UIWindowScene"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK12WindowOwningP09referenceC0So13UIWindowSceneCSgvg",
+                "mangledName": "$s6AmsSDK12WindowOwningP09referenceC0So13UIWindowSceneCSgvg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.WindowOwning>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.WindowOwning>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "takeOver",
+            "printedName": "takeOver(using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "View",
+                "printedName": "SwiftUI.View",
+                "usr": "s:7SwiftUI4ViewP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK12WindowOwningP8takeOver5usingy7SwiftUI4View_p_tF",
+            "mangledName": "$s6AmsSDK12WindowOwningP8takeOver5usingy7SwiftUI4View_p_tF",
+            "moduleName": "AmsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.WindowOwning>",
+            "sugared_genericSig": "<Self where Self : AmsSDK.WindowOwning>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK12WindowOwningP7dismissyyF",
+            "mangledName": "$s6AmsSDK12WindowOwningP7dismissyyF",
+            "moduleName": "AmsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.WindowOwning>",
+            "sugared_genericSig": "<Self where Self : AmsSDK.WindowOwning>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6AmsSDK12WindowOwningP",
+        "mangledName": "$s6AmsSDK12WindowOwningP",
+        "moduleName": "AmsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KillSwitchOwning",
+        "printedName": "KillSwitchOwning",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundleOwner",
+            "printedName": "bundleOwner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BundleOwning",
+                "printedName": "AmsSDK.BundleOwning",
+                "usr": "s:6AmsSDK12BundleOwningP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK16KillSwitchOwningP11bundleOwnerAA06BundleE0_pvp",
+            "mangledName": "$s6AmsSDK16KillSwitchOwningP11bundleOwnerAA06BundleE0_pvp",
+            "moduleName": "AmsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BundleOwning",
+                    "printedName": "AmsSDK.BundleOwning",
+                    "usr": "s:6AmsSDK12BundleOwningP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK16KillSwitchOwningP11bundleOwnerAA06BundleE0_pvg",
+                "mangledName": "$s6AmsSDK16KillSwitchOwningP11bundleOwnerAA06BundleE0_pvg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.KillSwitchOwning>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.KillSwitchOwning>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "windowOwner",
+            "printedName": "windowOwner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowOwning",
+                "printedName": "AmsSDK.WindowOwning",
+                "usr": "s:6AmsSDK12WindowOwningP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK16KillSwitchOwningP11windowOwnerAA06WindowE0_pvp",
+            "mangledName": "$s6AmsSDK16KillSwitchOwningP11windowOwnerAA06WindowE0_pvp",
+            "moduleName": "AmsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WindowOwning",
+                    "printedName": "AmsSDK.WindowOwning",
+                    "usr": "s:6AmsSDK12WindowOwningP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK16KillSwitchOwningP11windowOwnerAA06WindowE0_pvg",
+                "mangledName": "$s6AmsSDK16KillSwitchOwningP11windowOwnerAA06WindowE0_pvg",
+                "moduleName": "AmsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.KillSwitchOwning>",
+                "sugared_genericSig": "<Self where Self : AmsSDK.KillSwitchOwning>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:requestRefetching:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Setting",
+                "printedName": "AmsSDK.Setting",
+                "usr": "s:6AmsSDK7SettingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK16KillSwitchOwningP6decode_17requestRefetchingyAA7SettingV_ySdcSgtF",
+            "mangledName": "$s6AmsSDK16KillSwitchOwningP6decode_17requestRefetchingyAA7SettingV_ySdcSgtF",
+            "moduleName": "AmsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AmsSDK.KillSwitchOwning>",
+            "sugared_genericSig": "<Self where Self : AmsSDK.KillSwitchOwning>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6AmsSDK16KillSwitchOwningP",
+        "mangledName": "$s6AmsSDK16KillSwitchOwningP",
+        "moduleName": "AmsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KillSwitchOwner",
+        "printedName": "KillSwitchOwner",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundleOwner",
+            "printedName": "bundleOwner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BundleOwning",
+                "printedName": "AmsSDK.BundleOwning",
+                "usr": "s:6AmsSDK12BundleOwningP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK15KillSwitchOwnerV06bundleE0AA12BundleOwning_pvp",
+            "mangledName": "$s6AmsSDK15KillSwitchOwnerV06bundleE0AA12BundleOwning_pvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BundleOwning",
+                    "printedName": "AmsSDK.BundleOwning",
+                    "usr": "s:6AmsSDK12BundleOwningP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK15KillSwitchOwnerV06bundleE0AA12BundleOwning_pvg",
+                "mangledName": "$s6AmsSDK15KillSwitchOwnerV06bundleE0AA12BundleOwning_pvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "windowOwner",
+            "printedName": "windowOwner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowOwning",
+                "printedName": "AmsSDK.WindowOwning",
+                "usr": "s:6AmsSDK12WindowOwningP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK15KillSwitchOwnerV06windowE0AA12WindowOwning_pvp",
+            "mangledName": "$s6AmsSDK15KillSwitchOwnerV06windowE0AA12WindowOwning_pvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WindowOwning",
+                    "printedName": "AmsSDK.WindowOwning",
+                    "usr": "s:6AmsSDK12WindowOwningP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK15KillSwitchOwnerV06windowE0AA12WindowOwning_pvg",
+                "mangledName": "$s6AmsSDK15KillSwitchOwnerV06windowE0AA12WindowOwning_pvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentProvider",
+            "printedName": "contentProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AMSContentProviding",
+                "printedName": "AmsSDK.AMSContentProviding",
+                "usr": "s:6AmsSDK19AMSContentProvidingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK15KillSwitchOwnerV15contentProviderAA19AMSContentProviding_pvp",
+            "mangledName": "$s6AmsSDK15KillSwitchOwnerV15contentProviderAA19AMSContentProviding_pvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AMSContentProviding",
+                    "printedName": "AmsSDK.AMSContentProviding",
+                    "usr": "s:6AmsSDK19AMSContentProvidingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK15KillSwitchOwnerV15contentProviderAA19AMSContentProviding_pvg",
+                "mangledName": "$s6AmsSDK15KillSwitchOwnerV15contentProviderAA19AMSContentProviding_pvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:requestRefetching:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Setting",
+                "printedName": "AmsSDK.Setting",
+                "usr": "s:6AmsSDK7SettingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK15KillSwitchOwnerV6decode_17requestRefetchingyAA7SettingV_ySdcSgtF",
+            "mangledName": "$s6AmsSDK15KillSwitchOwnerV6decode_17requestRefetchingyAA7SettingV_ySdcSgtF",
+            "moduleName": "AmsSDK",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bundleOwner:windowOwner:contentProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KillSwitchOwner",
+                "printedName": "AmsSDK.KillSwitchOwner",
+                "usr": "s:6AmsSDK15KillSwitchOwnerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BundleOwning",
+                "printedName": "AmsSDK.BundleOwning",
+                "usr": "s:6AmsSDK12BundleOwningP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowOwning",
+                "printedName": "AmsSDK.WindowOwning",
+                "usr": "s:6AmsSDK12WindowOwningP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AMSContentProviding",
+                "printedName": "AmsSDK.AMSContentProviding",
+                "usr": "s:6AmsSDK19AMSContentProvidingP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK15KillSwitchOwnerV06bundleE006windowE015contentProviderAcA12BundleOwning_p_AA06WindowK0_pAA19AMSContentProviding_ptcfc",
+            "mangledName": "$s6AmsSDK15KillSwitchOwnerV06bundleE006windowE015contentProviderAcA12BundleOwning_p_AA06WindowK0_pAA19AMSContentProviding_ptcfc",
+            "moduleName": "AmsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6AmsSDK15KillSwitchOwnerV",
+        "mangledName": "$s6AmsSDK15KillSwitchOwnerV",
+        "moduleName": "AmsSDK",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "KillSwitchOwning",
+            "printedName": "KillSwitchOwning",
+            "usr": "s:6AmsSDK16KillSwitchOwningP",
+            "mangledName": "$s6AmsSDK16KillSwitchOwningP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DisplayModel",
+        "printedName": "DisplayModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK12DisplayModelV7messageSSvp",
+            "mangledName": "$s6AmsSDK12DisplayModelV7messageSSvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK12DisplayModelV7messageSSvg",
+                "mangledName": "$s6AmsSDK12DisplayModelV7messageSSvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DisplayModel",
+                "printedName": "AmsSDK.DisplayModel",
+                "usr": "s:6AmsSDK12DisplayModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK12DisplayModelV7messageACSS_tcfc",
+            "mangledName": "$s6AmsSDK12DisplayModelV7messageACSS_tcfc",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6AmsSDK12DisplayModelV",
+        "mangledName": "$s6AmsSDK12DisplayModelV",
+        "moduleName": "AmsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WindowOwner",
+        "printedName": "WindowOwner",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "referenceWindow",
+            "printedName": "referenceWindow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindowScene?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindowScene",
+                    "printedName": "UIKit.UIWindowScene",
+                    "usr": "c:objc(cs)UIWindowScene"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK11WindowOwnerC09referenceC0So13UIWindowSceneCSgvp",
+            "mangledName": "$s6AmsSDK11WindowOwnerC09referenceC0So13UIWindowSceneCSgvp",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIWindowScene?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindowScene",
+                        "printedName": "UIKit.UIWindowScene",
+                        "usr": "c:objc(cs)UIWindowScene"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AmsSDK11WindowOwnerC09referenceC0So13UIWindowSceneCSgvg",
+                "mangledName": "$s6AmsSDK11WindowOwnerC09referenceC0So13UIWindowSceneCSgvg",
+                "moduleName": "AmsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "referenceViewController",
+            "printedName": "referenceViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AmsSDK11WindowOwnerC23referenceViewController33_F376D7EF8210FAD3E1B02225827BDE69LLSo06UIViewG0CSgvp",
+            "mangledName": "$s6AmsSDK11WindowOwnerC23referenceViewController33_F376D7EF8210FAD3E1B02225827BDE69LLSo06UIViewG0CSgvp",
+            "moduleName": "AmsSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(referenceWindow:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowOwner",
+                "printedName": "AmsSDK.WindowOwner",
+                "usr": "s:6AmsSDK11WindowOwnerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindowScene?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindowScene",
+                    "printedName": "UIKit.UIWindowScene",
+                    "usr": "c:objc(cs)UIWindowScene"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6AmsSDK11WindowOwnerC09referenceC0ACSo13UIWindowSceneCSg_tcfc",
+            "mangledName": "$s6AmsSDK11WindowOwnerC09referenceC0ACSo13UIWindowSceneCSg_tcfc",
+            "moduleName": "AmsSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "takeOver",
+            "printedName": "takeOver(using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "View",
+                "printedName": "SwiftUI.View",
+                "usr": "s:7SwiftUI4ViewP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK11WindowOwnerC8takeOver5usingy7SwiftUI4View_p_tF",
+            "mangledName": "$s6AmsSDK11WindowOwnerC8takeOver5usingy7SwiftUI4View_p_tF",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6AmsSDK11WindowOwnerC7dismissyyF",
+            "mangledName": "$s6AmsSDK11WindowOwnerC7dismissyyF",
+            "moduleName": "AmsSDK",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6AmsSDK11WindowOwnerC",
+        "mangledName": "$s6AmsSDK11WindowOwnerC",
+        "moduleName": "AmsSDK",
+        "declAttributes": [
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "WindowOwning",
+            "printedName": "WindowOwning",
+            "usr": "s:6AmsSDK12WindowOwningP",
+            "mangledName": "$s6AmsSDK12WindowOwningP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2411,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2411,
+      "length": 6,
+      "value": "\"POST\""
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 effective-4.1.50 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -Onone -module-name AmsSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AmsSDK
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+public protocol AMSContentProviding {
+  @SwiftUI.ViewBuilder func killSwitchView(using displayModel: AmsSDK.DisplayModel) -> any SwiftUI.View
+  @SwiftUI.ViewBuilder func forceUpdateView(using displayModel: AmsSDK.DisplayModel) -> any SwiftUI.View
+}
+final public class AmsSDK {
+  public typealias AMSNetworkConfiguring = AmsSDK.NetworkConfiguring
+  public static var shared: AmsSDK.AmsSDK! {
+    get
+  }
+  final public let featureFlags: AmsSDK.FeatureFlagOwner
+  public init(with networkConfiguration: any AmsSDK.NetworkConfiguring, contentProvider: any AmsSDK.AMSContentProviding)
+  final public func prepare() -> Swift.Bool
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func kickoff() async -> Swift.Bool
+  #endif
+  @objc deinit
+}
+public protocol NetworkConfiguring {
+  var apiKey: Swift.String { get }
+  var baseURL: Foundation.URL { get }
+  var baseURLString: Swift.String { get }
+}
+extension AmsSDK.NetworkConfiguring {
+  public var baseURLString: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @dynamicMemberLookup final public class FeatureFlagOwner {
+  final public subscript(dynamicMember member: Swift.String) -> Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+public struct DisplayModel {
+  public let message: Swift.String
+  public init(message: Swift.String)
+}
