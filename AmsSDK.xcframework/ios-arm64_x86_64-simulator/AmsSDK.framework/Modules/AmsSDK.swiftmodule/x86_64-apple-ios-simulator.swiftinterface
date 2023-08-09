@@ -13,9 +13,9 @@ public protocol AMSContentProviding {
   @SwiftUI.ViewBuilder func killSwitchView(using displayModel: AmsSDK.DisplayModel) -> any SwiftUI.View
   @SwiftUI.ViewBuilder func forceUpdateView(using displayModel: AmsSDK.DisplayModel) -> any SwiftUI.View
 }
-final public class AmsSDK {
+final public class AmsSdk {
   public typealias AMSNetworkConfiguring = AmsSDK.NetworkConfiguring
-  public static var shared: AmsSDK.AmsSDK! {
+  public static var shared: AmsSDK.AmsSdk! {
     get
   }
   final public let featureFlags: AmsSDK.FeatureFlagOwner

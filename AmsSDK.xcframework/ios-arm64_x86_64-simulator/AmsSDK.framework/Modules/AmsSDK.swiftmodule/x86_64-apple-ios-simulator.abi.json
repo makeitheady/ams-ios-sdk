@@ -106,8 +106,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "AmsSDK",
-        "printedName": "AmsSDK",
+        "name": "AmsSdk",
+        "printedName": "AmsSdk",
         "children": [
           {
             "kind": "Var",
@@ -117,21 +117,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "AmsSDK.AmsSDK?",
+                "printedName": "AmsSDK.AmsSdk?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AmsSDK",
-                    "printedName": "AmsSDK.AmsSDK",
-                    "usr": "s:6AmsSDKAAC"
+                    "name": "AmsSdk",
+                    "printedName": "AmsSDK.AmsSdk",
+                    "usr": "s:6AmsSDK0A3SdkC"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:6AmsSDKAAC6sharedABSgvpZ",
-            "mangledName": "$s6AmsSDKAAC6sharedABSgvpZ",
+            "usr": "s:6AmsSDK0A3SdkC6sharedACSgvpZ",
+            "mangledName": "$s6AmsSDK0A3SdkC6sharedACSgvpZ",
             "moduleName": "AmsSDK",
             "static": true,
             "declAttributes": [
@@ -151,21 +151,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "AmsSDK.AmsSDK?",
+                    "printedName": "AmsSDK.AmsSdk?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "AmsSDK",
-                        "printedName": "AmsSDK.AmsSDK",
-                        "usr": "s:6AmsSDKAAC"
+                        "name": "AmsSdk",
+                        "printedName": "AmsSDK.AmsSdk",
+                        "usr": "s:6AmsSDK0A3SdkC"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6AmsSDKAAC6sharedABSgvgZ",
-                "mangledName": "$s6AmsSDKAAC6sharedABSgvgZ",
+                "usr": "s:6AmsSDK0A3SdkC6sharedACSgvgZ",
+                "mangledName": "$s6AmsSDK0A3SdkC6sharedACSgvgZ",
                 "moduleName": "AmsSDK",
                 "static": true,
                 "implicit": true,
@@ -189,8 +189,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6AmsSDKAAC12featureFlagsAA16FeatureFlagOwnerCvp",
-            "mangledName": "$s6AmsSDKAAC12featureFlagsAA16FeatureFlagOwnerCvp",
+            "usr": "s:6AmsSDK0A3SdkC12featureFlagsAA16FeatureFlagOwnerCvp",
+            "mangledName": "$s6AmsSDK0A3SdkC12featureFlagsAA16FeatureFlagOwnerCvp",
             "moduleName": "AmsSDK",
             "declAttributes": [
               "Final",
@@ -213,8 +213,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6AmsSDKAAC12featureFlagsAA16FeatureFlagOwnerCvg",
-                "mangledName": "$s6AmsSDKAAC12featureFlagsAA16FeatureFlagOwnerCvg",
+                "usr": "s:6AmsSDK0A3SdkC12featureFlagsAA16FeatureFlagOwnerCvg",
+                "mangledName": "$s6AmsSDK0A3SdkC12featureFlagsAA16FeatureFlagOwnerCvg",
                 "moduleName": "AmsSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -231,9 +231,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AmsSDK",
-                "printedName": "AmsSDK.AmsSDK",
-                "usr": "s:6AmsSDKAAC"
+                "name": "AmsSdk",
+                "printedName": "AmsSDK.AmsSdk",
+                "usr": "s:6AmsSDK0A3SdkC"
               },
               {
                 "kind": "TypeNominal",
@@ -249,8 +249,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6AmsSDKAAC4with15contentProviderAbA18NetworkConfiguring_p_AA19AMSContentProviding_ptcfc",
-            "mangledName": "$s6AmsSDKAAC4with15contentProviderAbA18NetworkConfiguring_p_AA19AMSContentProviding_ptcfc",
+            "usr": "s:6AmsSDK0A3SdkC4with15contentProviderAcA18NetworkConfiguring_p_AA19AMSContentProviding_ptcfc",
+            "mangledName": "$s6AmsSDK0A3SdkC4with15contentProviderAcA18NetworkConfiguring_p_AA19AMSContentProviding_ptcfc",
             "moduleName": "AmsSDK",
             "declAttributes": [
               "AccessControl"
@@ -270,8 +270,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6AmsSDKAAC7prepareSbyF",
-            "mangledName": "$s6AmsSDKAAC7prepareSbyF",
+            "usr": "s:6AmsSDK0A3SdkC7prepareSbyF",
+            "mangledName": "$s6AmsSDK0A3SdkC7prepareSbyF",
             "moduleName": "AmsSDK",
             "declAttributes": [
               "Final",
@@ -292,8 +292,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6AmsSDKAAC7kickoffSbyYaFZ",
-            "mangledName": "$s6AmsSDKAAC7kickoffSbyYaFZ",
+            "usr": "s:6AmsSDK0A3SdkC7kickoffSbyYaFZ",
+            "mangledName": "$s6AmsSDK0A3SdkC7kickoffSbyYaFZ",
             "moduleName": "AmsSDK",
             "static": true,
             "declAttributes": [
@@ -304,8 +304,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:6AmsSDKAAC",
-        "mangledName": "$s6AmsSDKAAC",
+        "usr": "s:6AmsSDK0A3SdkC",
+        "mangledName": "$s6AmsSDK0A3SdkC",
         "moduleName": "AmsSDK",
         "declAttributes": [
           "Final",
@@ -3825,8 +3825,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6AmsSDK11WindowOwnerC23referenceViewController33_F376D7EF8210FAD3E1B02225827BDE69LLSo06UIViewG0CSgvp",
-            "mangledName": "$s6AmsSDK11WindowOwnerC23referenceViewController33_F376D7EF8210FAD3E1B02225827BDE69LLSo06UIViewG0CSgvp",
+            "usr": "s:6AmsSDK11WindowOwnerC23referenceViewController33_32A0B6F8A20F49A5514E7D03F8160567LLSo06UIViewG0CSgvp",
+            "mangledName": "$s6AmsSDK11WindowOwnerC23referenceViewController33_32A0B6F8A20F49A5514E7D03F8160567LLSo06UIViewG0CSgvp",
             "moduleName": "AmsSDK",
             "isInternal": true,
             "declAttributes": [
@@ -3939,28 +3939,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSDK.swift",
+      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSdk.swift",
       "kind": "StringLiteral",
       "offset": 2389,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSDK.swift",
+      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSdk.swift",
       "kind": "StringLiteral",
       "offset": 2411,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSDK.swift",
+      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSdk.swift",
       "kind": "StringLiteral",
       "offset": 2389,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSDK.swift",
+      "filePath": "\/Users\/shivamkapur\/Desktop\/iOS\/AmsSDK\/AmsSDK\/Classes\/AmsSdk.swift",
       "kind": "StringLiteral",
       "offset": 2411,
       "length": 6,
